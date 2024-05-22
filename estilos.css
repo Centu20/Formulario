@@ -1,0 +1,66 @@
+body{
+    background-color: darkcyan;
+    display: grid;
+    justify-content: center;
+}
+
+
+#titulo{
+    color: beige;
+    text-align: center;
+    border-style: solid;
+    border-color: beige;
+    background-color: darkorange;
+    font-size: 40px;
+}
+
+
+#busqueda-de-usuarios{
+    display: grid;
+}
+
+
+label{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.informacion{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+#textos{
+    min-width:  150px;
+    max-width:  200px;
+    min-height:  50px;
+    max-height: 150px;
+}
+
+
+mark{
+    background-color: rgba(0, 255, 255, 0.74);
+    color: white;
+}
+
+
+u{
+ font-style: oblique;  
+}
+
+
+#formulario-de-contratacion{
+    background-color: palevioletred;
+    padding: 5px;
+    border: 15px dashed rgba(0, 255, 255, 0.342);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+
+#enviar{
+    margin-top: 10px;
+}

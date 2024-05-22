@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1 id="titulo"><mark>formulario</mark></h1>
+    <form id="formulario-de-contratacion" action="./envio.html" target="_blank">
+        <div id="busqueda-de-usuarios">
+            <div class="informacion" id="info-contactos">
+                <label for="nombres"><u>nombres</u>:</label>
+                <input type="text" name="listado-de-contactos" id="nombres" required>
+            </div>
+            <div class="informacion" id="info-gmails">
+                <label for="gmails"><u>gmails</u>:</label>
+                <input type="text" name="cuentas-de-gmails" id="gmails" required>
+            </div>
+            <div class="informacion" id="info-instagram">
+                <label for="instagram"><u>instagram</u>:</label>
+                <textarea name="cuentas" id="recomendaciones" rows="5" cols="25"></textarea>
+            </div>
+            <div class="informacion" id="info-mensajes">
+                <label for="textos"><u>mensaje</u>:</label>
+                <textarea name="usuarios" id="textos" rows="5" cols="25"></textarea>
+            </div>
+            <input id="enviar" type="submit" value="enviar">
+        </div>
+    </form>
+</body>
+
+</html>
