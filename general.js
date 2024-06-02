@@ -1,22 +1,22 @@
 function infoGeneral() {
-  const olSubscriptores = document.querySelector("#infoGeneral");
+  const olSubscriptores = document.querySelector("#info-del-subscriptor");
   const subscriptores = JSON.parse(localStorage.getItem("subscriptores")) || [];
 
     subscriptores.forEach(subscriptor => {
         olSubscriptores.innerHTML+=`
-            <li>
+            <li class="subscriptor">
                 <ul>
                     <li>
-                     ${subscriptor.nombres}
+                        ${subscriptor.nombres}
                     </li>
                     <li>
-                     ${subscriptor.gmails}
+                        ${subscriptor.gmails}
                     </li>
                     <li>
-                     ${subscriptor.recomendaciones}
+                        ${subscriptor.recomendaciones}
                     </li>
                     <li>
-                     ${subscriptor.textos}
+                        ${subscriptor.textos}
                     </li>
                 </ul>
             </li>

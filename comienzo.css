@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(185, 171, 153);
+}
+
+h3{
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid skyblue;
+    width: 15%;
+}
+
+.subscriptor{
+    background-color: khaki;
+    border: 2px dashed rgb(118, 170, 153);
+    width: 20%;
+    margin-bottom: 15px;
+}
