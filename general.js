@@ -7,16 +7,16 @@ function infoGeneral() {
             <li class="subscriptor">
                 <ul>
                     <li>
-                        ${subscriptor.nombres}
+                        ${subscriptor.nombre}
                     </li>
                     <li>
-                        ${subscriptor.gmails}
+                        ${subscriptor.gmail}
                     </li>
                     <li>
-                        ${subscriptor.recomendaciones}
+                        ${subscriptor.instagram}
                     </li>
                     <li>
-                        ${subscriptor.textos}
+                        ${subscriptor.mensaje}
                     </li>
                 </ul>
             </li>
